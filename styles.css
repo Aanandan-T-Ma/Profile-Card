@@ -8,7 +8,7 @@ body {
 }
 .card {
     margin: auto;
-    background-color: #7e7d7d;
+    background-color: #000000;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ body {
     transition: .5s;
     filter: grayscale(80%);
 }
-.img:hover {
+.img {
     transform: scale(1.1);
     filter: grayscale(0%);
 }
@@ -65,21 +65,21 @@ body {
 .icon:hover {
     transform: scale(1.3);
 }
-.facebook:hover {
+.facebook {
     color: blue;
 }
-.twitter:hover {
+.twitter {
     color: rgb(28, 130, 247);
 }
-.github:hover {
+.github {
     color: rgb(165, 9, 212);
 }
-.instagram:hover {
+.instagram {
     background: -webkit-linear-gradient(rgb(47, 0, 255), rgb(255, 0, 212));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.whatsapp:hover {
+.whatsapp {
     color: green;
 }
